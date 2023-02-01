@@ -35,6 +35,29 @@ body {
   right: 10px;
 }
 
+.cerebro {
+  margin-bottom: 40px;
+}
+
+#start {
+  padding: 16px 24px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+
+  display: flex;
+  justify-content: center; /*centraliza o texto horizontalmente*/
+  /*align-itens: center; centraliza o texto verticalmente*/
+
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 125%;
+}
+
 body > img {
   margin: 0 10px;
 }
